@@ -1,0 +1,29 @@
+general {
+    output_format = "i3bar"
+}
+
+order += "load"
+order += "disk /"
+order += "cpu_usage"
+order += "volume master"
+order += "tztime local"
+
+load {
+    format = " [ load: %1min, %5min, %15min ] "
+}
+disk "/" {
+    format = " [ %avail ] "
+}
+cpu_usage {
+        format = " [ %usage ] "
+}
+tztime local {
+        format = " [ %Y-%m-%d %H:%M:%S ] "
+}
+volume master {
+        format = "♪: %volume"
+        format_muted = "♪: muted (%volume)"
+        device = "default"
+        mixer = "Master"
+        mixer_idx = 0
+}
