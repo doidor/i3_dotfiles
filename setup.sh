@@ -1,3 +1,5 @@
+#!/bin/bash
+
 add-apt-repository main
 add-apt-repository universe
 add-apt-repository restricted
@@ -5,10 +7,7 @@ add-apt-repository multiverse
 
 apt update
 
-apt install -y lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings i3 wicd ubuntu-drivers-common mesa-utils mesa-utils-extra compton xorg xserver-xorg nautilus gnome-terminal git git-core zsh fonts-powerline xfe xfe-i18n xfe-themes
-
-mkdir -p ~/.config/i3status/
-cp ./i3status_config ~/.config/i3status/config
+apt install -y lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings i3 wicd ubuntu-drivers-common mesa-utils mesa-utils-extra compton xorg xserver-xorg nautilus gnome-terminal git git-core zsh fonts-powerline xfe xfe-i18n xfe-themes arandr
 
 mkdir /tmp/debs/
 
