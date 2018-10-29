@@ -9,3 +9,5 @@ mkdir -p ~/.config/i3status/
 cp ./dotfiles/i3status_config ~/.config/i3status/config
 cp ./dotfiles/i3_config ~/.config/i3/config
 cp ./dotfiles/zshrc ~/.zshrc
+
+wget -O gogh https://git.io/vQgMr && chmod +x gogh && ./gogh && rm gogh
