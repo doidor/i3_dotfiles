@@ -166,3 +166,4 @@ bar {
 # workspace 3 output $monitor_one
 # workspace 4 output $monitor_two
 
+#exec --no-startup-id feh --randomize --bg-fill ~/wallpapers/*
