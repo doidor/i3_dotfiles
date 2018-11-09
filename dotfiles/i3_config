@@ -155,6 +155,10 @@ bar {
         status_command i3status
 }
 
+# Screen Shots
+bindsym Print exec scrot '%Y-%m-%d-%s_screenshot_$wx$h.jpg' -e 'mv $f ~/Pictures/'
+bindsym $mod+Print exec gnome-screenshot -i
+
 # Monitors setup        
 # exec_always "~/.screenlayout/layout.sh"
 
