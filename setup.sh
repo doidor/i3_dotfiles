@@ -9,7 +9,7 @@ add-apt-repository multiverse
 
 apt update
 
-apt install -y lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings i3 wicd ubuntu-drivers-common mesa-utils mesa-utils-extra compton xorg xserver-xorg nautilus gnome-terminal git git-core zsh fonts-powerline xfe xfe-i18n xfe-themes arandr dconf-cli feh gnome-screenshot scrot
+apt install -y lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings i3 wicd ubuntu-drivers-common mesa-utils mesa-utils-extra compton xorg xserver-xorg nautilus gnome-terminal git git-core zsh fonts-powerline arandr dconf-cli feh gnome-screenshot scrot
 
 mkdir $DEBS_FOLDER
 
