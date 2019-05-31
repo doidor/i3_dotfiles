@@ -1,0 +1,27 @@
+[global_config]
+  borderless = True
+  focus = system
+  handle_size = 2
+  title_font = Hurmit NF Bold 11
+  title_transmit_bg_color = "#555753"
+  title_use_system_font = False
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      profile = default
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    background_color = "#2e3436"
+    cursor_color = "#FFFFFF"
+    font = Hurmit NF Medium 10
+    foreground_color = "#839496"
+    palette = "#000000:#cc0000:#4e9a06:#c4a000:#3465a4:#75507b:#06989a:#d3d7cf:#555753:#ef2929:#8ae234:#fce94f:#729fcf:#ad7fa8:#34e2e2:#eeeeec"
+    scrollback_infinite = True
+    use_system_font = False
