@@ -17,3 +17,8 @@ mkdir -p ~/wallpapers
 cp ./dotfiles/i3status_config ~/.config/i3status/config
 cp ./dotfiles/i3_config ~/.config/i3/config
 cp ./dotfiles/zshrc ~/.zshrc
+cp ./dotfiles/terminator_config ~/.config/terminator
+cp ./dotfiles/compton.conf ~/.config/
+
+# setup homebrew
+# sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)"
